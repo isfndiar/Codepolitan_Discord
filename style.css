@@ -1,0 +1,38 @@
+:root {
+    --blue : #0012DA;
+    --red : #AB0000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #faf2f2;
+}
+
+.card {
+
+background: linear-gradient(180deg, rgb(158, 10, 10) 31%, rgb(7, 26, 233) 100%);
+border-radius: 10px;
+
+}
+
+
+
+i.fa-spotify {
+    color: rgb(4, 207, 4);
+}
+
+input.range {
+ color: black;
+ background-color: black;
+}
