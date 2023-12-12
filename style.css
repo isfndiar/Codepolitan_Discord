@@ -32,6 +32,18 @@ i.fa-spotify {
     color: rgb(4, 207, 4);
 }
 
+i.fa-play {
+    color: purple;
+}
+
+i.fa-boostrap {
+    color: gray;
+}
+
+i.fa-gem {
+    color: violet;
+}
+
 input.range {
  color: black;
  background-color: black;
