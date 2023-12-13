@@ -137,6 +137,9 @@ hr {
 .img-text .description {
   padding: 0.5rem 0;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .song-time input {
