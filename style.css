@@ -231,6 +231,46 @@ input.light {
   color: white;
 }
 
+/* play and pause button */
+
+.play-song {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+}
+
+.play-song > i {
+  font-size: 17px;
+}
+
+.next, .back {
+  color: white !important; 
+  cursor: pointer;
+}
+
+.next:hover, .back:hover {
+  color: red;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+.back {
+  transform: rotate(180deg);
+}
 
 
 i.fa-spotify {
